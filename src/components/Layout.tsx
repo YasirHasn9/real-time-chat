@@ -1,10 +1,14 @@
-import {Container} from "./Layout.styled"
+// components
+import {SidebarContainer}  from "./Sidebar"
+// styled
+import {Container, SideBar} from "./Layout.styled"
 
 
 export function Layout (){
     return (
         <Container>
-            Test
+            <SidebarContainer />
+            <div>messages</div>
         </Container>
     )
 }
