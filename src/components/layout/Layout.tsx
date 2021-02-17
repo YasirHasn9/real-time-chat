@@ -1,7 +1,7 @@
 // components
-import {SidebarContainer}  from "./Sidebar"
+import {SidebarContainer}  from "../sidebar/Sidebar"
 // styled
-import {Container, SideBar} from "./Layout.styled"
+import {Container} from "./Layout.styled"
 
 
 export function Layout (){
