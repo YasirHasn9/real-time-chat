@@ -1,13 +1,22 @@
 
-import {Sidebar, Header} from "./Sidebar.styled"
+import {Sidebar,
+     Header , 
+     H1,
+     Username,
+     Status
+    } from "./Sidebar.styled"
 
 export function SidebarContainer(){
     return (
         <Sidebar>
             <Header>
-                <div>clone slack</div>
+                <H1>clone slack</H1>
                <div> <i className="fas fa-bell"></i></div>
-            </Header>
+               <Username>
+                   <Status></Status>
+                   Yasir Hamm
+                   </Username>
+            </Header> 
         </Sidebar>
     )
 }
