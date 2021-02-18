@@ -6,3 +6,9 @@ export const Sidebar = styled.div`
     width: 200px;
     background:rebeccapurple;
 `;
+
+
+export const Header = styled.header`
+    display:grid;
+    grid-template-columns: 1fr 25px;
+`
