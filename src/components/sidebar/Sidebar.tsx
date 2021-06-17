@@ -1,4 +1,5 @@
 import { Channels } from "../channels/channels";
+import {DirectMessages} from "../directMessage/DirectMessage"
 
 import { Sidebar, Header, H1, Username, Status } from "./Sidebar.styled";
 
@@ -15,8 +16,9 @@ export function SidebarContainer() {
           <Status></Status>
           Yasir Hamm
         </Username>
-        <Channels />
       </Header>
+      <Channels />
+      <DirectMessages />
     </Sidebar>
   );
 }

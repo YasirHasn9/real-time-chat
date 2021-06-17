@@ -1,4 +1,4 @@
-import {createGlobalStyle} from "styled-components"
+import { createGlobalStyle } from "styled-components"
 
 
 export const GlobalStyle = createGlobalStyle`
@@ -52,5 +52,13 @@ table {
 	border-spacing: 0;
 }
 
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
 
 `

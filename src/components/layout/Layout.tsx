@@ -3,6 +3,7 @@ import { GlobalStyle } from "../../global/styled.global";
 
 // components
 import { SidebarContainer } from "../sidebar/Sidebar";
+import { MainContent } from "../mainContent/MainContent"
 
 // styled
 import { Container } from "./Layout.styled";
@@ -12,7 +13,7 @@ export function Layout() {
     <Container>
       <GlobalStyle />
       <SidebarContainer />
-      <div>messages</div>
+      <MainContent />
     </Container>
   );
 }

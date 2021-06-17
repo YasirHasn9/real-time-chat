@@ -31,6 +31,6 @@ export const Status = styled.span`
   border-radius: 100%;
   background-color: green;
   display: inline-block;
-  margin-right: 0.5rem;
+  margin-right: 0.8rem;
   vertical-align: middle;
 `;
